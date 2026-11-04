@@ -1,0 +1,99 @@
+/*!
+ * SIPROREVIEW - Custom Institutional Theme Overrides on top of SB Admin Pro v2.0.4
+ * Institusi: LP2M STPM Santa Ursula Ende
+ * Warna Institusi:
+ * - Kuning muda: #FFF8D4
+ * - Kuning akademik: #FDF2BD
+ * - Hijau institusi: #1E6B4A
+ * - Hijau sekunder: #2F5D4A
+ * - Emas: #BE8F3B
+ * - Putih: #FFFFFF
+ */
+:root {
+  --stpm-yellow-light: #FFF8D4;
+  --stpm-yellow-academic: #FDF2BD;
+  --stpm-green-primary: #1E6B4A;
+  --stpm-green-secondary: #2F5D4A;
+  --stpm-gold: #BE8F3B;
+  --stpm-white: #FFFFFF;
+
+  /* Map SB Admin Pro Bootstrap 5 CSS Variables to STPM Santa Ursula Palette */
+  --bs-primary: #1E6B4A;
+  --bs-primary-rgb: 30, 107, 74;
+  --bs-secondary: #2F5D4A;
+  --bs-secondary-rgb: 47, 93, 74;
+  --bs-warning: #BE8F3B;
+  --bs-warning-rgb: 190, 143, 59;
+  --bs-primary-soft: #e2f2eb;
+  --bs-secondary-soft: #e6efeb;
+  --bs-warning-soft: #FDF2BD;
+}
+
+[data-theme="dark"] {
+  --bs-body-bg: #141c18;
+  --bs-body-color: #e2e8f0;
+  --stpm-card-bg: #1c2722;
+  --stpm-border-color: #2d3d35;
+}
+
+.bg-gradient-primary-to-secondary {
+  background-color: #1E6B4A !important;
+  background-image: linear-gradient(135deg, #1E6B4A 0%, #2F5D4A 65%, #BE8F3B 100%) !important;
+}
+
+.bg-stpm-cream {
+  background-color: #FFF8D4 !important;
+}
+
+.bg-stpm-academic {
+  background-color: #FDF2BD !important;
+}
+
+.text-stpm-green {
+  color: #1E6B4A !important;
+}
+
+.text-stpm-gold {
+  color: #BE8F3B !important;
+}
+
+.border-start-stpm-green {
+  border-left: 0.25rem solid #1E6B4A !important;
+}
+
+.border-start-stpm-gold {
+  border-left: 0.25rem solid #BE8F3B !important;
+}
+
+.sidenav-light .sidenav-menu .nav-link.active {
+  color: #1E6B4A !important;
+  background-color: #FFF8D4 !important;
+  border-left: 3px solid #1E6B4A;
+  font-weight: 600;
+}
+
+.sidenav-light .sidenav-menu .nav-link.active .nav-link-icon {
+  color: #1E6B4A !important;
+}
+
+.btn-primary {
+  background-color: #1E6B4A !important;
+  border-color: #1E6B4A !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #165238 !important;
+  border-color: #165238 !important;
+}
+
+.btn-gold {
+  background-color: #BE8F3B !important;
+  border-color: #BE8F3B !important;
+  color: #FFFFFF !important;
+}
+
+.btn-gold:hover {
+  background-color: #a3782d !important;
+  border-color: #a3782d !important;
+  color: #FFFFFF !important;
+}
